@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863DFAE51CB3AD9900D7F57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFAE41CB3AD9900D7F57F /* main.m */; };
+		863DFAE81CB3AD9900D7F57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFAE71CB3AD9900D7F57F /* AppDelegate.m */; };
+		863DFAEE1CB3AD9900D7F57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DFAEC1CB3AD9900D7F57F /* Main.storyboard */; };
+		863DFAF01CB3AD9A00D7F57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863DFAEF1CB3AD9A00D7F57F /* Assets.xcassets */; };
+		863DFAF31CB3AD9A00D7F57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DFAF11CB3AD9A00D7F57F /* LaunchScreen.storyboard */; };
+		863DFAFE1CB3AD9A00D7F57F /* MARGINESYITPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFAFD1CB3AD9A00D7F57F /* MARGINESYITPTests.m */; };
+		863DFB091CB3AD9A00D7F57F /* MARGINESYITPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB081CB3AD9A00D7F57F /* MARGINESYITPUITests.m */; };
+		863DFB181CB3B1E100D7F57F /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB171CB3B1E100D7F57F /* CategoryViewController.m */; };
+		863DFB1B1CB3B20400D7F57F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB1A1CB3B20400D7F57F /* ListViewController.m */; };
+		863DFB1E1CB3B21500D7F57F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB1D1CB3B21500D7F57F /* DetailsViewController.m */; };
+		863DFB221CB3BB7900D7F57F /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB201CB3BB7900D7F57F /* CategoryTableViewCell.m */; };
+		863DFB231CB3BB7900D7F57F /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 863DFB211CB3BB7900D7F57F /* CategoryTableViewCell.xib */; };
+		863DFB271CB3D2B100D7F57F /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB251CB3D2B100D7F57F /* ListViewCell.m */; };
+		863DFB281CB3D2B100D7F57F /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 863DFB261CB3D2B100D7F57F /* ListViewCell.xib */; };
+		863DFB2C1CB3E85800D7F57F /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DFB2B1CB3E85800D7F57F /* Categories.m */; };
+		E4C2039FACE007DAE4E81326 /* libPods-MARGINESYITP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7D48EC0F11A49EC8F3FAE0 /* libPods-MARGINESYITP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863DFAFA1CB3AD9A00D7F57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863DFAD81CB3AD9900D7F57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863DFADF1CB3AD9900D7F57F;
+			remoteInfo = MARGINESYITP;
+		};
+		863DFB051CB3AD9A00D7F57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863DFAD81CB3AD9900D7F57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863DFADF1CB3AD9900D7F57F;
+			remoteInfo = MARGINESYITP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E216B2822024A4BBD6D9139 /* Pods-MARGINESYITP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARGINESYITP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MARGINESYITP/Pods-MARGINESYITP.debug.xcconfig"; sourceTree = "<group>"; };
+		781BBAC56C065F21EEE6F497 /* Pods-MARGINESYITP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MARGINESYITP.release.xcconfig"; path = "Pods/Target Support Files/Pods-MARGINESYITP/Pods-MARGINESYITP.release.xcconfig"; sourceTree = "<group>"; };
+		7E7D48EC0F11A49EC8F3FAE0 /* libPods-MARGINESYITP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MARGINESYITP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863DFAE01CB3AD9900D7F57F /* MARGINESYITP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARGINESYITP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		863DFAE41CB3AD9900D7F57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		863DFAE61CB3AD9900D7F57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		863DFAE71CB3AD9900D7F57F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		863DFAED1CB3AD9900D7F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863DFAEF1CB3AD9A00D7F57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863DFAF21CB3AD9A00D7F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863DFAF41CB3AD9A00D7F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863DFAF91CB3AD9A00D7F57F /* MARGINESYITPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MARGINESYITPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863DFAFD1CB3AD9A00D7F57F /* MARGINESYITPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARGINESYITPTests.m; sourceTree = "<group>"; };
+		863DFAFF1CB3AD9A00D7F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863DFB041CB3AD9A00D7F57F /* MARGINESYITPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MARGINESYITPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863DFB081CB3AD9A00D7F57F /* MARGINESYITPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARGINESYITPUITests.m; sourceTree = "<group>"; };
+		863DFB0A1CB3AD9A00D7F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863DFB161CB3B1E100D7F57F /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = ../CategoryViewController.h; sourceTree = "<group>"; };
+		863DFB171CB3B1E100D7F57F /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewController.m; path = ../CategoryViewController.m; sourceTree = "<group>"; };
+		863DFB191CB3B20400D7F57F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../ListViewController.h; sourceTree = "<group>"; };
+		863DFB1A1CB3B20400D7F57F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = ../ListViewController.m; sourceTree = "<group>"; };
+		863DFB1C1CB3B21500D7F57F /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = ../DetailsViewController.h; sourceTree = "<group>"; };
+		863DFB1D1CB3B21500D7F57F /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = ../DetailsViewController.m; sourceTree = "<group>"; };
+		863DFB1F1CB3BB7900D7F57F /* CategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		863DFB201CB3BB7900D7F57F /* CategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		863DFB211CB3BB7900D7F57F /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		863DFB241CB3D2B100D7F57F /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		863DFB251CB3D2B100D7F57F /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		863DFB261CB3D2B100D7F57F /* ListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		863DFB2A1CB3E85800D7F57F /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		863DFB2B1CB3E85800D7F57F /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863DFADD1CB3AD9900D7F57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C2039FACE007DAE4E81326 /* libPods-MARGINESYITP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFAF61CB3AD9A00D7F57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFB011CB3AD9A00D7F57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBA5B8C5C3E45823E3F9540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E216B2822024A4BBD6D9139 /* Pods-MARGINESYITP.debug.xcconfig */,
+				781BBAC56C065F21EEE6F497 /* Pods-MARGINESYITP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		863DFAD71CB3AD9900D7F57F = {
+			isa = PBXGroup;
+			children = (
+				863DFAE21CB3AD9900D7F57F /* MARGINESYITP */,
+				863DFAFC1CB3AD9A00D7F57F /* MARGINESYITPTests */,
+				863DFB071CB3AD9A00D7F57F /* MARGINESYITPUITests */,
+				863DFAE11CB3AD9900D7F57F /* Products */,
+				3BBA5B8C5C3E45823E3F9540 /* Pods */,
+				9B2EC460C7B8C53D18A6C1E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		863DFAE11CB3AD9900D7F57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863DFAE01CB3AD9900D7F57F /* MARGINESYITP.app */,
+				863DFAF91CB3AD9A00D7F57F /* MARGINESYITPTests.xctest */,
+				863DFB041CB3AD9A00D7F57F /* MARGINESYITPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863DFAE21CB3AD9900D7F57F /* MARGINESYITP */ = {
+			isa = PBXGroup;
+			children = (
+				863DFB1C1CB3B21500D7F57F /* DetailsViewController.h */,
+				863DFB1D1CB3B21500D7F57F /* DetailsViewController.m */,
+				863DFB191CB3B20400D7F57F /* ListViewController.h */,
+				863DFB1A1CB3B20400D7F57F /* ListViewController.m */,
+				863DFB161CB3B1E100D7F57F /* CategoryViewController.h */,
+				863DFB171CB3B1E100D7F57F /* CategoryViewController.m */,
+				863DFAE61CB3AD9900D7F57F /* AppDelegate.h */,
+				863DFAE71CB3AD9900D7F57F /* AppDelegate.m */,
+				863DFAEC1CB3AD9900D7F57F /* Main.storyboard */,
+				863DFB241CB3D2B100D7F57F /* ListViewCell.h */,
+				863DFB251CB3D2B100D7F57F /* ListViewCell.m */,
+				863DFB261CB3D2B100D7F57F /* ListViewCell.xib */,
+				863DFB1F1CB3BB7900D7F57F /* CategoryTableViewCell.h */,
+				863DFB201CB3BB7900D7F57F /* CategoryTableViewCell.m */,
+				863DFB211CB3BB7900D7F57F /* CategoryTableViewCell.xib */,
+				863DFAEF1CB3AD9A00D7F57F /* Assets.xcassets */,
+				863DFAF11CB3AD9A00D7F57F /* LaunchScreen.storyboard */,
+				863DFAF41CB3AD9A00D7F57F /* Info.plist */,
+				863DFAE31CB3AD9900D7F57F /* Supporting Files */,
+				863DFB2A1CB3E85800D7F57F /* Categories.h */,
+				863DFB2B1CB3E85800D7F57F /* Categories.m */,
+			);
+			path = MARGINESYITP;
+			sourceTree = "<group>";
+		};
+		863DFAE31CB3AD9900D7F57F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863DFAE41CB3AD9900D7F57F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		863DFAFC1CB3AD9A00D7F57F /* MARGINESYITPTests */ = {
+			isa = PBXGroup;
+			children = (
+				863DFAFD1CB3AD9A00D7F57F /* MARGINESYITPTests.m */,
+				863DFAFF1CB3AD9A00D7F57F /* Info.plist */,
+			);
+			path = MARGINESYITPTests;
+			sourceTree = "<group>";
+		};
+		863DFB071CB3AD9A00D7F57F /* MARGINESYITPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				863DFB081CB3AD9A00D7F57F /* MARGINESYITPUITests.m */,
+				863DFB0A1CB3AD9A00D7F57F /* Info.plist */,
+			);
+			path = MARGINESYITPUITests;
+			sourceTree = "<group>";
+		};
+		9B2EC460C7B8C53D18A6C1E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E7D48EC0F11A49EC8F3FAE0 /* libPods-MARGINESYITP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863DFADF1CB3AD9900D7F57F /* MARGINESYITP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863DFB0D1CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITP" */;
+			buildPhases = (
+				BD0E43E8843E21949981A56B /* Check Pods Manifest.lock */,
+				863DFADC1CB3AD9900D7F57F /* Sources */,
+				863DFADD1CB3AD9900D7F57F /* Frameworks */,
+				863DFADE1CB3AD9900D7F57F /* Resources */,
+				46D5F695E093F040EABDA4F4 /* Embed Pods Frameworks */,
+				7C50919201524F93A53E226C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MARGINESYITP;
+			productName = MARGINESYITP;
+			productReference = 863DFAE01CB3AD9900D7F57F /* MARGINESYITP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863DFAF81CB3AD9A00D7F57F /* MARGINESYITPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863DFB101CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITPTests" */;
+			buildPhases = (
+				863DFAF51CB3AD9A00D7F57F /* Sources */,
+				863DFAF61CB3AD9A00D7F57F /* Frameworks */,
+				863DFAF71CB3AD9A00D7F57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863DFAFB1CB3AD9A00D7F57F /* PBXTargetDependency */,
+			);
+			name = MARGINESYITPTests;
+			productName = MARGINESYITPTests;
+			productReference = 863DFAF91CB3AD9A00D7F57F /* MARGINESYITPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		863DFB031CB3AD9A00D7F57F /* MARGINESYITPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863DFB131CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITPUITests" */;
+			buildPhases = (
+				863DFB001CB3AD9A00D7F57F /* Sources */,
+				863DFB011CB3AD9A00D7F57F /* Frameworks */,
+				863DFB021CB3AD9A00D7F57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863DFB061CB3AD9A00D7F57F /* PBXTargetDependency */,
+			);
+			name = MARGINESYITPUITests;
+			productName = MARGINESYITPUITests;
+			productReference = 863DFB041CB3AD9A00D7F57F /* MARGINESYITPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863DFAD81CB3AD9900D7F57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Marcin Mielniczek";
+				TargetAttributes = {
+					863DFADF1CB3AD9900D7F57F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					863DFAF81CB3AD9A00D7F57F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 863DFADF1CB3AD9900D7F57F;
+					};
+					863DFB031CB3AD9A00D7F57F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 863DFADF1CB3AD9900D7F57F;
+					};
+				};
+			};
+			buildConfigurationList = 863DFADB1CB3AD9900D7F57F /* Build configuration list for PBXProject "MARGINESYITP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863DFAD71CB3AD9900D7F57F;
+			productRefGroup = 863DFAE11CB3AD9900D7F57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863DFADF1CB3AD9900D7F57F /* MARGINESYITP */,
+				863DFAF81CB3AD9A00D7F57F /* MARGINESYITPTests */,
+				863DFB031CB3AD9A00D7F57F /* MARGINESYITPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863DFADE1CB3AD9900D7F57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DFAF31CB3AD9A00D7F57F /* LaunchScreen.storyboard in Resources */,
+				863DFAF01CB3AD9A00D7F57F /* Assets.xcassets in Resources */,
+				863DFB281CB3D2B100D7F57F /* ListViewCell.xib in Resources */,
+				863DFAEE1CB3AD9900D7F57F /* Main.storyboard in Resources */,
+				863DFB231CB3BB7900D7F57F /* CategoryTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFAF71CB3AD9A00D7F57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFB021CB3AD9A00D7F57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D5F695E093F040EABDA4F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MARGINESYITP/Pods-MARGINESYITP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C50919201524F93A53E226C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MARGINESYITP/Pods-MARGINESYITP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0E43E8843E21949981A56B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863DFADC1CB3AD9900D7F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DFAE81CB3AD9900D7F57F /* AppDelegate.m in Sources */,
+				863DFB221CB3BB7900D7F57F /* CategoryTableViewCell.m in Sources */,
+				863DFB1E1CB3B21500D7F57F /* DetailsViewController.m in Sources */,
+				863DFB181CB3B1E100D7F57F /* CategoryViewController.m in Sources */,
+				863DFB1B1CB3B20400D7F57F /* ListViewController.m in Sources */,
+				863DFB2C1CB3E85800D7F57F /* Categories.m in Sources */,
+				863DFAE51CB3AD9900D7F57F /* main.m in Sources */,
+				863DFB271CB3D2B100D7F57F /* ListViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFAF51CB3AD9A00D7F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DFAFE1CB3AD9A00D7F57F /* MARGINESYITPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DFB001CB3AD9A00D7F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DFB091CB3AD9A00D7F57F /* MARGINESYITPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863DFAFB1CB3AD9A00D7F57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863DFADF1CB3AD9900D7F57F /* MARGINESYITP */;
+			targetProxy = 863DFAFA1CB3AD9A00D7F57F /* PBXContainerItemProxy */;
+		};
+		863DFB061CB3AD9A00D7F57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863DFADF1CB3AD9900D7F57F /* MARGINESYITP */;
+			targetProxy = 863DFB051CB3AD9A00D7F57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		863DFAEC1CB3AD9900D7F57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863DFAED1CB3AD9900D7F57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		863DFAF11CB3AD9A00D7F57F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863DFAF21CB3AD9A00D7F57F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863DFB0B1CB3AD9A00D7F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		863DFB0C1CB3AD9A00D7F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863DFB0E1CB3AD9A00D7F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E216B2822024A4BBD6D9139 /* Pods-MARGINESYITP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MARGINESYITP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		863DFB0F1CB3AD9A00D7F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781BBAC56C065F21EEE6F497 /* Pods-MARGINESYITP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MARGINESYITP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		863DFB111CB3AD9A00D7F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MARGINESYITPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MARGINESYITP.app/MARGINESYITP";
+			};
+			name = Debug;
+		};
+		863DFB121CB3AD9A00D7F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MARGINESYITPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MARGINESYITP.app/MARGINESYITP";
+			};
+			name = Release;
+		};
+		863DFB141CB3AD9A00D7F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MARGINESYITPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MARGINESYITP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		863DFB151CB3AD9A00D7F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MARGINESYITPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcinmielniczek.MARGINESYITPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MARGINESYITP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863DFADB1CB3AD9900D7F57F /* Build configuration list for PBXProject "MARGINESYITP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863DFB0B1CB3AD9A00D7F57F /* Debug */,
+				863DFB0C1CB3AD9A00D7F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863DFB0D1CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863DFB0E1CB3AD9A00D7F57F /* Debug */,
+				863DFB0F1CB3AD9A00D7F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863DFB101CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863DFB111CB3AD9A00D7F57F /* Debug */,
+				863DFB121CB3AD9A00D7F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863DFB131CB3AD9A00D7F57F /* Build configuration list for PBXNativeTarget "MARGINESYITPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863DFB141CB3AD9A00D7F57F /* Debug */,
+				863DFB151CB3AD9A00D7F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863DFAD81CB3AD9900D7F57F /* Project object */;
+}
